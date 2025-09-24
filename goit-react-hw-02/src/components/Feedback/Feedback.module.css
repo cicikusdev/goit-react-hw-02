@@ -1,0 +1,55 @@
+.feedback {
+  padding: 20px;
+  background-color: #fff3e0;
+  border: 2px solid #ff9800;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease;
+}
+
+.statItem:hover {
+  background-color: #f8f9fa;
+  border-color: #ff9800;
+  transform: translateX(4px);
+}
+
+.label {
+  font-weight: 600;
+  color: #555;
+  font-size: 1rem;
+}
+
+.value {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.1rem;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  min-width: 40px;
+  text-align: center;
+}
